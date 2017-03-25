@@ -34,7 +34,7 @@ if (option === 'eat') {
   window.alert('Feeling you have no real options here, you give into despair for ' + number + ' years, you lose.')
 } else if (option === 'call') {
   window.alert('You lean back and call the squad with your loudest voice')
-  if (dayTime > 0.5 && helpful > 0.5 ) {
+  if (dayTime > 0.5 && helpful > 0.4 ) {
     window.alert('Your squad bursts through the door, unties you, and together you beat up the baddies')
   } else {
     window.alert('I guess you didn\'t yell loud enough, whoops. You lose.')
