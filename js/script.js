@@ -1,6 +1,6 @@
 var option = window.prompt('"Okay you little pest, I finally caught you! You ve been a thorn in my side for far too long! The time has come Mr. Stanning. You can no longer stop me, especially now since I have got you tied up with my super strong black licorice rope! Don’t even try to chew through it, remember, you’re allergic!” "Okay Stanning, you got this, this is my chance to escape and save the day like the hero I am.” type "eat" to eat the licorice, type "wait" to wait for help, or type "call" to call the squad')
 option = option.trim()
-option = option.toLowercase()
+option = option.toLowerCase()
 
 var randomNumber = Math.random()
 var dayTime = Math.random()
